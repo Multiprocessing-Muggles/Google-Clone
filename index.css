@@ -17,6 +17,14 @@
 .header a:hover{
     color:cornflowerblue;
 }
+    
+.image:hover img{
+    transform: scale(1.05); 
+}
+
+.advance:hover img{
+    transform: scale(1.05);
+}
 
 main {    
     display: flex;
