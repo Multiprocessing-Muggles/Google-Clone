@@ -90,3 +90,7 @@ main {
 #search-button input:hover, #search-bar:hover {
     box-shadow: 0 0 2px gray;
 }
+
+.cam:hover,.search:hover{
+    opacity:0.5;
+}
