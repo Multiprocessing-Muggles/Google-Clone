@@ -28,8 +28,17 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+	position: relative;
 }
 
+#google-image-subtext {
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	position: absolute;
+	left: 402px;
+	bottom: 0;
+	white-space: nowrap;
+}
 
 
 #search-bar{
