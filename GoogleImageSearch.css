@@ -66,3 +66,7 @@ main {
 #search-button input:hover {
     font-size: 15px;
 }
+
+.gsearch:hover{
+    opacity: 0.5;
+}
