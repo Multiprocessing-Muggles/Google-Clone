@@ -123,3 +123,7 @@
 .ad-button {
     margin-left: 620px;
 }
+
+.gsearch:hover{
+    opacity:0.5;
+}
