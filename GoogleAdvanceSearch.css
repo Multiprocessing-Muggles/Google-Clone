@@ -1,7 +1,6 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
-
 
 .header {
     display: flex;
@@ -22,21 +21,23 @@
     color: cornflowerblue;
 }
 
-#google-image{
+#google-image {
     width: 1350px;
     height: 48px;
     padding-right: 25px;
-    
+
 }
 
-.advance-title{
+.advance-title {
     margin: 25px 35px;
 }
-.line{
+
+.line {
     height: 0;
     border-bottom: 1px solid #ebebeb;
 }
-.advance-title p{
+
+.advance-title p {
     font-family: arial, sans-serif;
     margin-left: 10px;
     color: #d93025;
@@ -52,17 +53,17 @@
     text-decoration: none;
 }
 
-.main-body{
+.main-body {
     margin: 40px, 30.400px, 0px, 45px;
     max-width: 1140px;
 }
 
-.queries{
+.queries {
     width: 1140px;
     padding-top: 15px;
 }
 
-#grid{
+#grid {
     display: grid;
 
     column-gap: 0px;
@@ -70,11 +71,11 @@
     grid-template-columns: 182px auto 370px;
 }
 
-#grid div{
+#grid div {
     padding: 4px;
 }
 
-.grid-items3{
+.grid-items3 {
     font-family: arial, sans-serif;
     color: #555;
     font-size: 11px;
@@ -82,7 +83,7 @@
     padding-left: 5px
 }
 
-.grid-items2 input{
+.grid-items2 input {
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
@@ -92,7 +93,7 @@
     width: 90%;
     text-align: left;
     outline: none;
-    
+
 
 }
 
@@ -106,7 +107,7 @@
     font-family: arial, sans-serif;
 }
 
-.ad-button input{
+.ad-button input {
     padding: 0, 12px;
     margin: 10px 0;
     border: 1px solid #3079ed;
@@ -119,6 +120,10 @@
     text-align: center;
 }
 
-.ad-button{
+.ad-button {
     margin-left: 620px;
+}
+
+.gsearch:hover{
+    opacity:0.5;
 }
